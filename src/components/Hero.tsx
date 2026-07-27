@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
-        <div className="border rounded-lg flex flex-row gap-8 mb-5">
-            <div className="info border p-5 w-3/5">
+        <div className="flex flex-row gap-10 mb-25 h-screen">
+            <div className="info border p-5 w-1/2">
                 <p>Hi, I am Ryan Badenhorst</p>
                 <p>I am a Front-end web developer located in Durban, South Africa</p>
                 <p>I enjoy building responsive, accessible web applications with React and TypeScript.</p>
@@ -19,7 +19,7 @@ export default function Hero() {
 
                 <button>View my resume</button>
             </div>
-            <div className="picture border"></div>
+            <div className="picture border w-1/2"></div>
         </div>
     )
 }
