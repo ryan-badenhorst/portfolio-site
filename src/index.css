@@ -2,7 +2,7 @@
 
 @layer base {
     body {
-        @apply text-2xl p-5;
+        @apply text-xl p-5;
     }
 
     a {
