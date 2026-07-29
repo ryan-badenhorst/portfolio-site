@@ -2,7 +2,7 @@
 
 @layer base {
     body {
-        @apply px-16;
+        @apply px-16 bg-slate-200 text-slate-900;
     }
 
     a {
@@ -11,5 +11,9 @@
 
     .navbar-link {
         @apply p-5;
+    }
+
+    .icons {
+        @apply w-9 h-9 border rounded-[50%] p-1;
     }
 }
