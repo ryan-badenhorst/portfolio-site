@@ -1,28 +1,62 @@
+import profilePicture from "../images/profile-picture.png";
+
 export default function Hero() {
     return (
-        <div className="flex flex-row gap-10 mb-25 h-screen">
-            <div className="info border p-5 w-1/2">
-                <p>Hi, I'm</p>
-                <p>Ryan Badenhorst</p>
-                <p>Front-End Web Developer</p>
-                <p>Durban, South Africa</p>
-                <p>I enjoy building responsive, accessible web applications with React and TypeScript.</p>
-                <p>Currently focused on creating polished user interfaces while continually expanding my front-end development skills.</p>
+        <div id="hero" className="flex flex-row gap-5 mb-25">
 
-                <p>
-                    Primary stack
-                    React · TypeScript · JavaScript · HTML · CSS
-                </p>
+            <div className="border p-5 flex-1">
 
-                <button>View my resume</button>
+                <div className="mb-8">
+                    <p>Hi, I'm</p>
+                    <h1 className="text-6xl font-bold">
+                        Ryan Badenhorst
+                    </h1>
+                    <p className="text-3xl font-semibold">
+                        Front-End Web Developer
+                    </p>
+                    <p>Durban, South Africa</p>
+                </div>
+
+                <div className="mb-8">
+                    <p>
+                        I enjoy building responsive, accessible web
+                        applications with React and TypeScript.
+                    </p>
+
+                    <p>
+                        Currently focused on creating polished user
+                        interfaces while continually expanding my
+                        front-end development skills.
+                    </p>
+                </div>
+
+                <div className="mb-8">
+                    <p>Primary Stack</p>
+                    <p>
+                        React · TypeScript · JavaScript · HTML · CSS
+                    </p>
+                </div>
 
                 <div>
-                    <p>Github Icon</p>
-                    <p>LinkedIn Icon</p>
-                    <p>Email Icon</p>
+                    <button>View my resume</button>
+
+                    <div>
+                        <p>Github Icon</p>
+                        <p>LinkedIn Icon</p>
+                        <p>Email Icon</p>
+                    </div>
                 </div>
+
             </div>
-            <div className="picture border w-1/2"></div>
+
+            <div className="border flex-1 flex items-center justify-center">
+                <img
+                    src={profilePicture}
+                    alt="Profile Picture"
+                    className="w-100 h-100"
+                />
+            </div>
+
         </div>
     )
 }
