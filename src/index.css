@@ -2,7 +2,7 @@
 
 @layer base {
     body {
-        @apply px-16 bg-slate-200 text-slate-900;
+        @apply px-16 bg-slate-100 text-slate-900;
     }
 
     a {
