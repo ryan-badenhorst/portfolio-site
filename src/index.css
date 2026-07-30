@@ -2,18 +2,34 @@
 
 @layer base {
     body {
-        @apply px-16 bg-slate-100 text-slate-900;
+        @apply bg-slate-100 text-slate-900 px-16;
     }
 
     a {
         @apply cursor-pointer;
     }
+}
 
+@layer components {
     .navbar-link {
-        @apply p-5;
+        @apply p-5 transition-colors duration-200 hover:text-indigo-700;
     }
 
-    .icons {
-        @apply w-9 h-9 border rounded-[50%] p-1;
+    .hero-stack {
+        @apply rounded-full bg-white border border-slate-200 px-4 py-2 text-sm font-medium text-slate-700 shadow-sm;
+    }
+
+    .resume-button {
+        @apply flex items-center gap-3 rounded-lg
+        bg-indigo-700 px-5 py-3 text-lg font-semibold
+        text-white shadow-lg transition-all duration-300 hover:-translate-y-1
+        hover:bg-indigo-800 hover:shadow-xl;
+    }
+
+    .icon-button {
+        @apply h-12 w-12 rounded-full
+        bg-white p-3
+        text-slate-700 shadow-md transition-all duration-300 hover:-translate-y-1
+        hover:text-indigo-700 hover:shadow-lg;
     }
 }
