@@ -20,7 +20,7 @@ export default function Hero() {
                             Ryan Badenhorst
                         </h1>
 
-                        <p className="text-3xl font-bold text-indigo-800">
+                        <p className="text-3xl font-bold text-indigo-900">
                             Front-End Web Developer
                         </p>
 
