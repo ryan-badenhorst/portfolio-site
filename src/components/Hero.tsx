@@ -7,12 +7,12 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function Hero() {
     return (
-        <section id="hero" className="flex mb-5">
+        <section id="hero" className="flex mb-10">
 
-            <div className="flex-1 flex items-center py-5 pl-30">
+            <div className="flex-1 flex items-center py-5">
                 <div>
                     <div className="mb-5 flex flex-col gap-2">
-                        <p className="text-2xl text-slate-600">
+                        <p className="text-2xl text-slate-600 ml-1">
                             Hi, I'm
                         </p>
 

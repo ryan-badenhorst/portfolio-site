@@ -9,7 +9,7 @@ export default function Navbar() {
             </a>
 
             <div className="flex flex-row gap-4 ml-auto">
-                <a href="" className="navbar-link">Projects</a>
+                <a href="projects" className="navbar-link">Projects</a>
                 <a href="" className="navbar-link">About</a>
                 <a href="" className="navbar-link">Skills</a>
                 <a href="" className="navbar-link">Contact</a>
