@@ -38,6 +38,6 @@
     }
 
     .section-headings {
-        @apply mb-8 text-5xl font-bold tracking-tight text-slate-800;
+        @apply mb-10 text-5xl font-bold tracking-tight text-slate-800;
     }
 }
