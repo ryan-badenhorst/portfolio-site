@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function Hero() {
     return (
-        <section id="hero" className="flex mb-10">
+        <section id="hero" className="flex mb-15">
 
             <div className="flex-1 flex items-center py-5">
                 <div>
