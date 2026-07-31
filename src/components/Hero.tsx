@@ -11,7 +11,7 @@ export default function Hero() {
 
             <div className="flex-1 flex items-center py-5">
                 <div>
-                    <div className="mb-5 flex flex-col gap-2">
+                    <div className="mb-8 flex flex-col gap-2">
                         <p className="text-2xl text-slate-600 ml-1">
                             Hi, I'm
                         </p>
@@ -29,7 +29,7 @@ export default function Hero() {
                         </p>
                     </div>
 
-                    <div className="mb-5 max-w-xl space-y-2 text-lg text-slate-700">
+                    <div className="mb-8 max-w-xl space-y-2 text-lg text-slate-700">
                         <p>
                             I enjoy building responsive, accessible web applications with React and TypeScript.
                         </p>
@@ -56,7 +56,7 @@ export default function Hero() {
 
                     <div className="flex flex-col items-start gap-5">
                         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-button">
-                            View my resume <FaArrowRight />
+                            View Resume <FaArrowRight />
                         </a>
 
                         <div className="flex gap-5">

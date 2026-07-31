@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
     body {
         @apply bg-slate-100 text-slate-900 mx-35;
     }
@@ -34,6 +38,6 @@
     }
 
     .section-headings {
-        @apply mb-5 text-5xl font-bold text-slate-700 font-mono;
+        @apply mb-8 text-5xl font-bold tracking-tight text-slate-800;
     }
 }
