@@ -5,7 +5,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function ProjectCard() {
     return (
-        <article className="mb-24">
+        <article className="mb-16">
 
             <div className="flex gap-12">
 
@@ -46,9 +46,8 @@ export default function ProjectCard() {
                         </h3>
 
                         <p className="mb-7 text-lg leading-8 text-slate-700">
-                            A web application that helps players manage Pokémon
-                            Nuzlocke runs by tracking encounters, routes, team
-                            members, boxed Pokémon and overall progress.
+                            A React web application that helps players manage Pokémon Nuzlocke playthroughs 
+                            by tracking encounters, routes, team members, boxed Pokémon, and overall progress throughout a run.
                         </p>
 
                         <div className="mb-7">
@@ -58,6 +57,7 @@ export default function ProjectCard() {
 
                             <div className="flex flex-wrap gap-3">
                                 <span className="hero-stack">React</span>
+                                <span className="hero-stack">React Router</span>
                                 <span className="hero-stack">TypeScript</span>
                                 <span className="hero-stack">Tailwind CSS</span>
                             </div>
@@ -70,9 +70,9 @@ export default function ProjectCard() {
 
                             <ul className="list-disc space-y-2 pl-5 text-slate-700">
                                 <li>Track encounters by route</li>
-                                <li>Manage team and boxed Pokémon</li>
-                                <li>Searchable Pokédex</li>
-                                <li>Responsive React interface</li>
+                                <li>Manage active team and boxed Pokémon</li>
+                                <li>Search and browse the Pokédex</li>
+                                <li>Automatically save progress using Local Storage</li>
                             </ul>
                         </div>
 
@@ -82,10 +82,10 @@ export default function ProjectCard() {
                             </h3>
 
                             <p className="leading-8 text-slate-700">
-                                Building this application taught me how to
-                                structure larger React projects, create reusable
-                                components, and design interfaces that remain
-                                intuitive as the application grows.
+                                Building this application taught me how to structure larger 
+                                React applications using reusable components, organize state 
+                                across multiple pages, and think more carefully about 
+                                designing interfaces that remain intuitive as new features are added.
                             </p>
                         </div>
                     </div>
