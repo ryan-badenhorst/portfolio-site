@@ -1,9 +1,23 @@
-import PokemonNuzlockeTracker from "../images/pokemon-nuzlocke-tracker.jpg";
-
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-export default function ProjectCard() {
+type ProjectCardProps = {
+    title: string;
+    image: string;
+    imageAlt: string;
+
+    about: string;
+    technologies: string[];
+    highlights: string[];
+    learned: string;
+
+    githubUrl: string;
+    liveDemoUrl: string;
+
+    reverse?: boolean;
+}
+
+export default function ProjectCard({title, image, imageAlt, about, technologies, highlights, learned, githubUrl, liveDemoUrl}: ProjectCardProps) {
     return (
         <article className="mb-16">
 
@@ -11,7 +25,7 @@ export default function ProjectCard() {
 
                 <div className="flex-[1.25] pt-7">
                     <h2 className="mb-8 text-4xl font-bold text-indigo-900">
-                        Pokemon Nuzlocke Tracker
+                        {title}
                     </h2>
 
                     <div className="relative mb-8">
@@ -20,18 +34,18 @@ export default function ProjectCard() {
 
                         <div className="rounded-3xl bg-white p-3 shadow-2xl ring-1 ring-slate-200">
                             <div className="overflow-hidden rounded-2xl border border-slate-200">
-                                <img src={PokemonNuzlockeTracker} alt="Pokemon Nuzlocke Tracker" className="w-full" />
+                                <img src={image} alt={imageAlt} className="w-full" />
                             </div>
                         </div>
                     </div>
 
                     <div className="flex gap-4">
-                        <a href="#" className="resume-button">
+                        <a href={githubUrl} className="resume-button">
                             <FaGithub />
                             GitHub
                         </a>
 
-                        <a href="#" className="resume-button">
+                        <a href={liveDemoUrl} className="resume-button">
                             <FaExternalLinkAlt />
                             Live Demo
                         </a>
@@ -46,8 +60,7 @@ export default function ProjectCard() {
                         </h3>
 
                         <p className="mb-7 text-lg leading-8 text-slate-700">
-                            A React web application that helps players manage Pokémon Nuzlocke playthroughs 
-                            by tracking encounters, routes, team members, boxed Pokémon, and overall progress throughout a run.
+                            {about}
                         </p>
 
                         <div className="mb-7">
@@ -56,10 +69,11 @@ export default function ProjectCard() {
                             </p>
 
                             <div className="flex flex-wrap gap-3">
-                                <span className="hero-stack">React</span>
-                                <span className="hero-stack">React Router</span>
-                                <span className="hero-stack">TypeScript</span>
-                                <span className="hero-stack">Tailwind CSS</span>
+                                {technologies.map((technology) => (
+                                    <span key={technology} className="hero-stack">
+                                        {technology}
+                                    </span>
+                                ))}
                             </div>
                         </div>
 
@@ -69,10 +83,11 @@ export default function ProjectCard() {
                             </h3>
 
                             <ul className="list-disc space-y-2 pl-5 text-slate-700">
-                                <li>Track encounters by route</li>
-                                <li>Manage active team and boxed Pokémon</li>
-                                <li>Search and browse the Pokédex</li>
-                                <li>Automatically save progress using Local Storage</li>
+                                {highlights.map((highlight) => (
+                                    <li key={highlight}>
+                                        {highlight}
+                                    </li>
+                                ))}
                             </ul>
                         </div>
 
@@ -82,10 +97,7 @@ export default function ProjectCard() {
                             </h3>
 
                             <p className="leading-8 text-slate-700">
-                                Building this application taught me how to structure larger 
-                                React applications using reusable components, organize state 
-                                across multiple pages, and think more carefully about 
-                                designing interfaces that remain intuitive as new features are added.
+                                {learned}
                             </p>
                         </div>
                     </div>
