@@ -5,93 +5,90 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function ProjectCard() {
     return (
-        <article className="rounded-3xl border border-slate-200 bg-white p-10 shadow-xl">
+        <article className="mb-24">
 
-            <div className="flex items-center gap-12">
+            <div className="flex gap-12">
 
-                {/* Screenshot */}
-
-                <div className="basis-3/5">
-
-                    <div className="rounded-2xl border border-slate-200 bg-slate-100 p-3 shadow-lg">
-
-                        {/* Browser Bar */}
-
-                        <div className="mb-3 flex gap-2">
-                            <div className="h-3 w-3 rounded-full bg-red-400" />
-                            <div className="h-3 w-3 rounded-full bg-yellow-400" />
-                            <div className="h-3 w-3 rounded-full bg-green-400" />
-                        </div>
-
-                        <img src={PokemonNuzlockeTracker} alt="Pokemon Nuzlocke Tracker" className="w-full rounded-xl" />
-
-                    </div>
-
-                </div>
-
-                {/* Information */}
-
-                <div className="basis-2/5">
-
-                    <h2 className="mb-3 text-4xl font-bold text-slate-900">
+                <div className="flex-[1.25] pt-7">
+                    <h2 className="mb-8 text-4xl font-bold text-indigo-900">
                         Pokemon Nuzlocke Tracker
                     </h2>
 
-                    <div className="mb-6 flex flex-wrap gap-3">
-                        <span className="hero-stack">React</span>
-                        <span className="hero-stack">TypeScript</span>
-                        <span className="hero-stack">Tailwind CSS</span>
-                    </div>
+                    <div className="relative mb-8">
+                        <div className="absolute -top-10 -right-10 -z-10 h-40 w-40 bg-[radial-gradient(#3b82f6_2px,transparent_2px)] bg-size-[16px_16px] opacity-60" />
+                        <div className="absolute -bottom-10 -left-10 -z-10 h-40 w-40 bg-[radial-gradient(#3b82f6_2px,transparent_2px)] bg-size-[16px_16px] opacity-60" />
 
-                    <p className="mb-6 text-lg leading-8 text-slate-700">
-                        A web application that helps players manage Pokémon
-                        Nuzlocke runs by tracking encounters, routes,
-                        team members, boxed Pokémon and overall progress.
-                    </p>
-
-                    <div className="mb-6">
-
-                        <h3 className="mb-3 text-xl font-semibold text-slate-900">
-                            Highlights
-                        </h3>
-
-                        <ul className="list-inside list-disc space-y-2 text-slate-700">
-                            <li>Track encounters for every route</li>
-                            <li>Manage active team and storage</li>
-                            <li>Filter and search Pokémon</li>
-                            <li>Responsive React application</li>
-                        </ul>
-
-                    </div>
-
-                    <div className="mb-8">
-
-                        <h3 className="mb-3 text-xl font-semibold text-slate-900">
-                            What I Learned
-                        </h3>
-
-                        <p className="leading-7 text-slate-700">
-                            This project taught me how to structure a larger
-                            React application, create reusable components,
-                            and manage shared state across multiple pages.
-                        </p>
-
+                        <div className="rounded-3xl bg-white p-3 shadow-2xl ring-1 ring-slate-200">
+                            <div className="overflow-hidden rounded-2xl border border-slate-200">
+                                <img src={PokemonNuzlockeTracker} alt="Pokemon Nuzlocke Tracker" className="w-full" />
+                            </div>
+                        </div>
                     </div>
 
                     <div className="flex gap-4">
-
-                        <a href="" className="resume-button">
+                        <a href="#" className="resume-button">
                             <FaGithub />
                             GitHub
                         </a>
 
-                        <a href="" className="resume-button">
+                        <a href="#" className="resume-button">
                             <FaExternalLinkAlt />
                             Live Demo
                         </a>
-
                     </div>
+                </div>
 
+                <div className="flex flex-1 items-center">
+                    <div className="w-full rounded-3xl border-t-4 border-indigo-600 bg-white p-7 shadow-xl">
+
+                        <h3 className="mb-3 text-3xl font-bold text-slate-900">
+                            About this Project
+                        </h3>
+
+                        <p className="mb-7 text-lg leading-8 text-slate-700">
+                            A web application that helps players manage Pokémon
+                            Nuzlocke runs by tracking encounters, routes, team
+                            members, boxed Pokémon and overall progress.
+                        </p>
+
+                        <div className="mb-7">
+                            <p className="mb-3 font-semibold text-indigo-800">
+                                Built With
+                            </p>
+
+                            <div className="flex flex-wrap gap-3">
+                                <span className="hero-stack">React</span>
+                                <span className="hero-stack">TypeScript</span>
+                                <span className="hero-stack">Tailwind CSS</span>
+                            </div>
+                        </div>
+
+                        <div className="mb-7">
+                            <h3 className="mb-3 text-2xl font-semibold">
+                                Highlights
+                            </h3>
+
+                            <ul className="list-disc space-y-2 pl-5 text-slate-700">
+                                <li>Track encounters by route</li>
+                                <li>Manage team and boxed Pokémon</li>
+                                <li>Searchable Pokédex</li>
+                                <li>Responsive React interface</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 className="mb-3 text-2xl font-semibold">
+                                What I Learned
+                            </h3>
+
+                            <p className="leading-8 text-slate-700">
+                                Building this application taught me how to
+                                structure larger React projects, create reusable
+                                components, and design interfaces that remain
+                                intuitive as the application grows.
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
