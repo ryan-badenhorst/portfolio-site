@@ -22,10 +22,12 @@ export default function FeaturedProjects() {
                 title="Pokemon Nuzlocke Tracker"
                 image={PokemonNuzlockeTracker}
                 imageAlt="Pokemon Nuzlocke Tracker pages"
+                
                 about="A React web application that helps players manage Pokémon Nuzlocke playthroughs by tracking encounters, routes, team members, boxed Pokémon, and overall progress throughout a run."
                 technologies={["React", "React Router", "TypeScript", "Tailwind CSS", "PokéAPI"]}
                 highlights={["Track encounters by route", "Manage active team and boxed Pokémon", "Search and browse the Pokédex", "Automatically save progress using Local Storage"]}
                 learned="Building this application taught me how to structure larger React applications using reusable components, organize state across multiple pages, and think more carefully about designing interfaces that remain intuitive as new features are added."
+                
                 githubUrl="https://github.com/ryan-badenhorst/pokemon-nuzlocke-tracker"
                 liveDemoUrl="pokemon-nuzlocke-tracker.netlify.app/"
             />
@@ -42,6 +44,8 @@ export default function FeaturedProjects() {
 
                 githubUrl="https://github.com/ryan-badenhorst/react-typescript-weather-dashboard"
                 liveDemoUrl="https://react-typescript-weather-dashboard.netlify.app/"
+
+                reverse
             />
 
         </section>

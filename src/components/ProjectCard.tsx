@@ -17,11 +17,11 @@ type ProjectCardProps = {
     reverse?: boolean;
 }
 
-export default function ProjectCard({title, image, imageAlt, about, technologies, highlights, learned, githubUrl, liveDemoUrl}: ProjectCardProps) {
+export default function ProjectCard({title, image, imageAlt, about, technologies, highlights, learned, githubUrl, liveDemoUrl, reverse = false}: ProjectCardProps) {
     return (
         <article className="mb-16">
 
-            <div className="flex gap-12">
+            <div className={`flex gap-12 ${ reverse ? "flex-row-reverse" : "flex-row"}`}>
 
                 <div className="flex-[1.25] pt-7">
                     <h2 className="mb-8 text-4xl font-bold text-indigo-900">
