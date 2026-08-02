@@ -60,7 +60,7 @@ export default function Hero() {
                         </a>
 
                         <div className="flex gap-5">
-                            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <a href="https://github.com/ryan-badenhorst" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                                 <FaGithub className="icon-button" />
                             </a>
 
@@ -68,7 +68,7 @@ export default function Hero() {
                                 <BiLogoLinkedin className="icon-button" />
                             </a>
 
-                            <a href="mailto:you@example.com" aria-label="Email">
+                            <a href="mailto:ryanwbadenhorst@gmail.com" aria-label="Email">
                                 <MdEmail className="icon-button" />
                             </a>
                         </div>
