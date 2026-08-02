@@ -2,6 +2,8 @@ import ProjectCard from "./ProjectCard";
 
 import PokemonNuzlockeTracker from "../images/pokemon-nuzlocke-tracker.jpg"
 import WeatherDashboard from "../images/weather-daashboard.png"
+import KanbanBoard from "../images/kanban-board.png"
+import ExpenseTracker from "../images/expense-tracker.png"
 
 export default function FeaturedProjects() {
     return (
@@ -46,6 +48,34 @@ export default function FeaturedProjects() {
                 liveDemoUrl="https://react-typescript-weather-dashboard.netlify.app/"
 
                 reverse
+            />
+
+            <ProjectCard 
+                title="Kanban Board"
+                image={KanbanBoard}
+                imageAlt="Kanban Board App in action"
+
+                about="A JavaScript web application for organizing tasks using a Kanban-style workflow. Users can create, edit, move and delete tasks across multiple columns, with dedicated backlog and completed sections, providing a simple and intuitive way to manage personal projects and day-to-day work."
+                technologies={["HTML", "CSS", "JavaScript"]}
+                highlights={["Edit and delete tasks", "Organize tasks across multiple workflow columns", "Persist board state using local storage", "Drag and drop tasks between columns", "Responsive interface for desktop and mobile"]}
+                learned="Building this project strengthened my understanding of structuring larger JavaScript applications, managing dynamic user interactions, implementing drag-and-drop functionality, and maintaining application state using Local Storage."
+
+                githubUrl="https://github.com/ryan-badenhorst/kanban-board"
+                liveDemoUrl="https://kanbanboard-workflowapp.netlify.app/"
+            />
+
+            <ProjectCard 
+                title="Expense Tracker"
+                image={ExpenseTracker}
+                imageAlt="Expense Tracker App"
+
+                about="A JavaScript web application that helps users track income and expenses by recording transactions, calculating balances, and organizing financial information through a simple and intuitive interface."
+                technologies={["HTML", "CSS", "JavaScript"]}
+                highlights={["Add and delete income and expense transactions", "Automatically calculate current balance, income, and expenses", "Categorize transactions for easier tracking", "Filter transactions by category and date range", "Persist transaction data using Local Storage", "Responsive interface across desktop and mobile devices"]}
+                learned="Building this project strengthened my understanding of working with JavaScript arrays and objects, deriving application data from user input, persisting information using Local Storage, and building interfaces that update dynamically as data changes."
+
+                githubUrl="https://github.com/ryan-badenhorst/expense-tracker"
+                liveDemoUrl="https://expense-tracker-management-app.netlify.app/"
             />
 
         </section>
