@@ -76,6 +76,8 @@ export default function FeaturedProjects() {
 
                 githubUrl="https://github.com/ryan-badenhorst/expense-tracker"
                 liveDemoUrl="https://expense-tracker-management-app.netlify.app/"
+
+                reverse
             />
 
         </section>
