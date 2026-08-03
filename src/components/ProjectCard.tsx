@@ -15,11 +15,12 @@ type ProjectCardProps = {
     liveDemoUrl: string;
 
     reverse?: boolean;
+    isLast?: boolean;
 }
 
-export default function ProjectCard({title, image, imageAlt, about, technologies, highlights, learned, githubUrl, liveDemoUrl, reverse = false}: ProjectCardProps) {
+export default function ProjectCard({title, image, imageAlt, about, technologies, highlights, learned, githubUrl, liveDemoUrl, reverse = false, isLast = false}: ProjectCardProps) {
     return (
-        <article className="mb-16">
+        <article className="">
 
             <div className={`flex gap-12 ${ reverse ? "flex-row-reverse" : "flex-row"}`}>
 
@@ -104,6 +105,14 @@ export default function ProjectCard({title, image, imageAlt, about, technologies
                 </div>
 
             </div>
+
+            {!isLast && (
+                <div className="mt-5 mb-5 flex items-center">
+                    <div className="h-px flex-1 bg-linear-to-r from-transparent via-slate-300 to-indigo-300" />
+                    <div className="mx-6 h-6 w-6 rounded-full border-2 border-indigo-500 bg-white shadow-md" />
+                    <div className="h-px flex-1 bg-linear-to-r from-indigo-300 via-slate-300 to-transparent" />
+                </div>
+            )}
 
         </article>
     )

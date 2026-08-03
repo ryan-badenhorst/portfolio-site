@@ -78,8 +78,8 @@ export default function FeaturedProjects() {
                 liveDemoUrl="https://expense-tracker-management-app.netlify.app/"
 
                 reverse
+                isLast
             />
-
         </section>
     )
 }
