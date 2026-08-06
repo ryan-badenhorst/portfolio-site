@@ -34,17 +34,16 @@ export default function About() {
                         </div>
 
                         <p className="leading-8 text-slate-600">
-                            Every project I build follows the same process.
-                            Taking time to plan, build incrementally and think
-                            ahead helps me create applications that are easier
-                            to understand, maintain and expand.
+                            Every project I build follows a similar process. 
+                            Taking time to plan ahead helps me create applications 
+                            that are easier to understand, maintain and expand.
                         </p>
 
                     </div>
 
                     <div className="relative p-8">
 
-                        <div className="absolute left-12.5 top-15 bottom-36 w-1 h-100 bg-indigo-200" />
+                        <div className="absolute left-12.5 top-15 bottom-36 w-1 h-110 bg-indigo-200" />
 
                         <div className="space-y-10">
 
@@ -61,9 +60,8 @@ export default function About() {
                                     </h3>
 
                                     <p className="leading-7 text-slate-600">
-                                        Before writing code, I map out the pages,
-                                        components, hooks and functionality the
-                                        project will need.
+                                        Before writing any code, I map out the application 
+                                        by deciding what components, pages, hooks and other functionality it will need.
                                     </p>
 
                                 </div>
@@ -83,9 +81,8 @@ export default function About() {
                                     </h3>
 
                                     <p className="leading-7 text-slate-600">
-                                        Large features become smaller,
-                                        manageable tasks so I can solve one
-                                        problem at a time.
+                                        I then break down large features into smaller, manageable pieces 
+                                        so I can focus on solving one problem at a time.
                                     </p>
 
                                 </div>
@@ -105,10 +102,11 @@ export default function About() {
                                     </h3>
 
                                     <p className="leading-7 text-slate-600">
-                                        I build one feature at a time, making
-                                        sure it works before moving on.
-                                        Whenever I notice repeated logic, I
-                                        extract it into reusable components.
+                                        From there, I build one feature at a time, 
+                                        making sure that it works before moving on. 
+                                        If I notice any repeated logic, I extract it into 
+                                        reusable components to keep the application  
+                                        consistent and easier to maintain.
                                     </p>
 
                                 </div>
@@ -128,9 +126,10 @@ export default function About() {
                                     </h3>
 
                                     <p className="leading-7 text-slate-600">
-                                        I write clear, organized code that is
-                                        easy to understand and straightforward
-                                        to extend as the project grows.
+                                        I write code with the future in mind by 
+                                        using clear naming conventions, avoiding unnecessary complexity 
+                                        and keeping everything organized so that 
+                                        adding new features or making changes later is straightforward.
                                     </p>
 
                                 </div>
@@ -154,30 +153,23 @@ export default function About() {
                         </div>
 
                         <blockquote className="border-l-4 border-indigo-500 pl-5 text-lg italic leading-8 text-slate-700">
-                            "Taking a little more time to build something
-                            properly usually saves far more time as the
-                            project grows."
+                            "I believe taking a little more time 
+                            to build something properly often saves a lot more time as the project grows"
                         </blockquote>
 
                     </div>
 
                 </div>
 
-                {/* ===================================================== */}
                 {/* Card 2 */}
-                {/* ===================================================== */}
 
-                <div className="rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200" />
+                <div className="rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200"></div>
 
-                {/* ===================================================== */}
                 {/* Card 3 */}
-                {/* ===================================================== */}
 
                 <div className="col-span-2 rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200" />
 
-                {/* ===================================================== */}
                 {/* Card 4 */}
-                {/* ===================================================== */}
 
                 <div className="col-span-2 rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200" />
 
