@@ -163,7 +163,122 @@ export default function About() {
 
                 {/* Card 2 */}
 
-                <div className="rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200"></div>
+                <div className="rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200">
+
+                    <h2 className="mb-5 text-3xl font-bold text-slate-900">
+                        Principles I Build By
+                    </h2>
+
+                    <p className="mb-10 max-w-3xl leading-8 text-slate-600">
+                        The way I build software is guided by a set of principles that help me 
+                        make better technical decisions while continuing to grow as a developer.
+                    </p>
+
+                    <div className="">
+                        <div className="mb-4 flex items-center gap-4">
+                            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
+                                💻
+                            </div>
+
+                            <h3 className="text-2xl font-semibold text-slate-900">
+                                Software is for People
+                            </h3>
+                        </div>
+
+                        <p className="leading-8 text-slate-700">
+                            I believe good software should be easy to understand just as much as it should be easy to use.
+                            Whether someone is using the application or working on its code, the experience should feel intuitive, 
+                            consistent and well thought out.
+                        </p>
+
+                        <p className="mt-4 leading-8 text-slate-700">
+                            I also pay close attention to details such as spacing, consistency and overall layout 
+                            because I believe they're what elevate a good application into a great user experience. 
+                            Good software should be enjoyable for both the people using it and the developers working on it.
+                        </p>
+                    </div>
+
+                    <div className="my-6 h-px bg-linear-to-r from-transparent via-slate-400 to-transparent" />
+
+                    <div className="">
+                        <div className="mb-4 flex items-center gap-4">
+                            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
+                                🧠
+                            </div>
+
+                            <h3 className="text-2xl font-semibold text-slate-900">
+                                Every Decision Has a Reason
+                            </h3>
+                        </div>
+
+                        <p className="leading-8 text-slate-700">
+                            Every decision I make has a purpose. 
+                            I enjoy understanding why one solution is better than another 
+                            because understanding the reasoning behind those decisions helps me 
+                            continually improve both my code and the experience I create for users.
+                        </p>
+                    </div>
+
+                    <div className="my-8 h-px bg-linear-to-r from-transparent via-slate-400 to-transparent" />
+
+                    {/* Principle 3 */}
+                    <div className="">
+                        <div className="mb-4 flex items-center gap-4">
+                            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
+                                📚
+                            </div>
+
+                            <h3 className="text-2xl font-semibold text-slate-900">
+                                Learning Never Stops
+                            </h3>
+                        </div>
+
+                        <p className="leading-8 text-slate-700">
+                            Teaching myself software development taught me how to learn independently, 
+                            pushing me to research documentation, solve unfamiliar problems 
+                            and become comfortable learning new technologies. 
+                        </p>
+
+                        <p className="mt-4 leading-8 text-slate-700">
+                            Learning how to learn has become one of the most valuable skills I've gained 
+                            because it allows me to approach every new project as an opportunity to improve.
+                        </p>
+                    </div>
+
+                    <div className="my-8 h-px bg-linear-to-r from-transparent via-slate-300 to-transparent" />
+
+                    {/* Principle 4 */}
+                    <div>
+                        <div className="mb-4 flex items-center gap-4">
+                            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
+                                🌱
+                            </div>
+
+                            <h3 className="text-2xl font-semibold text-slate-900">
+                                Think Beyond Today
+                            </h3>
+                        </div>
+
+                        <p className="leading-8 text-slate-700">
+                            The biggest lesson I've learned is that software isn't finished the moment it works. 
+                            The decisions made today shape how easy it will be to maintain, improve and expand tomorrow.
+                        </p>
+                    </div>
+
+                    {/* Highlight */}
+                    <div className="mt-8 rounded-2xl border border-indigo-200 bg-indigo-50 p-6">
+
+                        <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-indigo-700">
+                            Biggest Lesson
+                        </p>
+
+                        <blockquote className="text-xl font-medium italic leading-9 text-slate-800">
+                            "Understanding why something works is just as important as making it work."
+                        </blockquote>
+
+                    </div>
+
+                </div>
 
                 {/* Card 3 */}
 
@@ -176,5 +291,5 @@ export default function About() {
             </div>
 
         </section>
-    );
+    )
 }
