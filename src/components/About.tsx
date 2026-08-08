@@ -1,5 +1,10 @@
 import { FaLightbulb } from "react-icons/fa";
 import { FaSitemap } from "react-icons/fa";
+import { FaBookBookmark } from "react-icons/fa6";
+import { FaUsers } from "react-icons/fa";
+import { FaBrain } from "react-icons/fa";
+import { FaBookOpen } from "react-icons/fa";
+import { FaSeedling } from "react-icons/fa";
 
 export default function About() {
     return (
@@ -17,167 +22,187 @@ export default function About() {
 
             <div className="grid grid-cols-2 gap-8">
 
-                <div className="rounded-3xl bg-white shadow-xl overflow-hidden">
+                <div className="flex flex-col gap-8">
 
-                    <div className="border-b border-slate-200 bg-linear-to-r from-indigo-100 via-white to-indigo-100 p-6">
+                    <div className="col-start-1 rounded-3xl bg-white shadow-xl overflow-hidden">
+
+                        <div className="border-b border-slate-200 bg-linear-to-r from-indigo-100 via-white to-indigo-100 p-6">
+
+                            <div className="mb-2 flex items-center gap-4">
+
+                                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-100 text-2xl text-indigo-600">
+                                    <FaSitemap />
+                                </div>
+
+                                <h2 className="text-3xl font-bold text-slate-900">
+                                    How I Build Software
+                                </h2>
+
+                            </div>
+
+                            <p className="leading-8 text-slate-600">
+                                Every project I build follows a similar process. 
+                                Taking time to plan ahead helps me create applications 
+                                that are easier to understand, maintain and expand.
+                            </p>
+
+                        </div>
+
+                        <div className="relative p-8">
+
+                            <div className="absolute left-12.5 top-15 bottom-36 w-1 h-110 bg-indigo-200" />
+
+                            <div className="space-y-10">
+
+                                <div className="relative flex gap-6">
+
+                                    <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
+                                        1
+                                    </div>
+
+                                    <div>
+
+                                        <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                                            Engineer a Plan
+                                        </h3>
+
+                                        <p className="leading-7 text-slate-600">
+                                            Before writing any code, I map out the application 
+                                            by deciding what components, pages, hooks and other functionality it will need.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                                <div className="relative flex gap-6">
+
+                                    <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
+                                        2
+                                    </div>
+
+                                    <div>
+
+                                        <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                                            Break It Down
+                                        </h3>
+
+                                        <p className="leading-7 text-slate-600">
+                                            I then break down large features into smaller, manageable pieces 
+                                            so I can focus on solving one problem at a time.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                                <div className="relative flex gap-6">
+
+                                    <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
+                                        3
+                                    </div>
+
+                                    <div>
+
+                                        <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                                            Build & Refine
+                                        </h3>
+
+                                        <p className="leading-7 text-slate-600">
+                                            From there, I build one feature at a time, 
+                                            making sure that it works before moving on. 
+                                            If I notice any repeated logic, I extract it into 
+                                            reusable components to keep the application  
+                                            consistent and easier to maintain.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                                <div className="relative flex gap-6">
+
+                                    <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
+                                        4
+                                    </div>
+
+                                    <div>
+
+                                        <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                                            Think Ahead
+                                        </h3>
+
+                                        <p className="leading-7 text-slate-600">
+                                            I write code with the future in mind by 
+                                            using clear naming conventions, avoiding unnecessary complexity 
+                                            and keeping everything organized so that 
+                                            adding new features or making changes later is straightforward.
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div className="border-t border-slate-200 bg-indigo-50 p-6">
+
+                            <div className="mb-4 flex items-center gap-3">
+
+                                <FaBookBookmark className="text-xl text-indigo-600" />
+
+                                <h3 className="font-bold text-slate-900">
+                                    Core Principle
+                                </h3>
+
+                            </div>
+
+                            <blockquote className="border-l-4 border-indigo-500 pl-5 text-lg italic leading-8 text-slate-700">
+                                "I believe taking a little more time 
+                                to build something properly often saves a lot more time as the project grows"
+                            </blockquote>
+
+                        </div>
+
+                    </div>
+
+                    {/* Card 3 */}
+
+                    <div className="col-start-1 rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200" />
+                
+                </div>
+
+                {/* Card 2 */}
+
+                <div className="col-start-2 rounded-3xl bg-white shadow-xl ring-1 ring-slate-200">
+
+                    <div className="mb-5 border-b border-slate-200 bg-linear-to-r from-indigo-100 via-white to-indigo-100 p-6">
 
                         <div className="mb-2 flex items-center gap-4">
 
                             <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-100 text-2xl text-indigo-600">
-                                <FaSitemap />
+                                <FaLightbulb />
                             </div>
 
                             <h2 className="text-3xl font-bold text-slate-900">
-                                How I Build Software
+                                Principles I Build By
                             </h2>
 
                         </div>
 
                         <p className="leading-8 text-slate-600">
-                            Every project I build follows a similar process. 
-                            Taking time to plan ahead helps me create applications 
-                            that are easier to understand, maintain and expand.
+                            The way I build software is guided by a set of principles that help me 
+                            make better technical decisions while continuing to grow as a developer.
                         </p>
 
                     </div>
 
-                    <div className="relative p-8">
-
-                        <div className="absolute left-12.5 top-15 bottom-36 w-1 h-110 bg-indigo-200" />
-
-                        <div className="space-y-10">
-
-                            <div className="relative flex gap-6">
-
-                                <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
-                                    1
-                                </div>
-
-                                <div>
-
-                                    <h3 className="mb-2 text-xl font-semibold text-slate-900">
-                                        Engineer a Plan
-                                    </h3>
-
-                                    <p className="leading-7 text-slate-600">
-                                        Before writing any code, I map out the application 
-                                        by deciding what components, pages, hooks and other functionality it will need.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <div className="relative flex gap-6">
-
-                                <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
-                                    2
-                                </div>
-
-                                <div>
-
-                                    <h3 className="mb-2 text-xl font-semibold text-slate-900">
-                                        Break It Down
-                                    </h3>
-
-                                    <p className="leading-7 text-slate-600">
-                                        I then break down large features into smaller, manageable pieces 
-                                        so I can focus on solving one problem at a time.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <div className="relative flex gap-6">
-
-                                <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
-                                    3
-                                </div>
-
-                                <div>
-
-                                    <h3 className="mb-2 text-xl font-semibold text-slate-900">
-                                        Build & Refine
-                                    </h3>
-
-                                    <p className="leading-7 text-slate-600">
-                                        From there, I build one feature at a time, 
-                                        making sure that it works before moving on. 
-                                        If I notice any repeated logic, I extract it into 
-                                        reusable components to keep the application  
-                                        consistent and easier to maintain.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            <div className="relative flex gap-6">
-
-                                <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
-                                    4
-                                </div>
-
-                                <div>
-
-                                    <h3 className="mb-2 text-xl font-semibold text-slate-900">
-                                        Think Ahead
-                                    </h3>
-
-                                    <p className="leading-7 text-slate-600">
-                                        I write code with the future in mind by 
-                                        using clear naming conventions, avoiding unnecessary complexity 
-                                        and keeping everything organized so that 
-                                        adding new features or making changes later is straightforward.
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div className="border-t border-slate-200 bg-indigo-50 p-6">
-
-                        <div className="mb-4 flex items-center gap-3">
-
-                            <FaLightbulb className="text-xl text-indigo-600" />
-
-                            <h3 className="font-bold text-slate-900">
-                                Core Principle
-                            </h3>
-
-                        </div>
-
-                        <blockquote className="border-l-4 border-indigo-500 pl-5 text-lg italic leading-8 text-slate-700">
-                            "I believe taking a little more time 
-                            to build something properly often saves a lot more time as the project grows"
-                        </blockquote>
-
-                    </div>
-
-                </div>
-
-                {/* Card 2 */}
-
-                <div className="rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200">
-
-                    <h2 className="mb-5 text-3xl font-bold text-slate-900">
-                        Principles I Build By
-                    </h2>
-
-                    <p className="mb-10 max-w-3xl leading-8 text-slate-600">
-                        The way I build software is guided by a set of principles that help me 
-                        make better technical decisions while continuing to grow as a developer.
-                    </p>
-
-                    <div className="">
+                    <div className="px-8">
                         <div className="mb-4 flex items-center gap-4">
                             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
-                                💻
+                                <FaUsers />
                             </div>
 
                             <h3 className="text-2xl font-semibold text-slate-900">
@@ -200,10 +225,10 @@ export default function About() {
 
                     <div className="my-6 h-px bg-linear-to-r from-transparent via-slate-400 to-transparent" />
 
-                    <div className="">
+                    <div className="px-8">
                         <div className="mb-4 flex items-center gap-4">
                             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
-                                🧠
+                                <FaBrain />
                             </div>
 
                             <h3 className="text-2xl font-semibold text-slate-900">
@@ -221,11 +246,10 @@ export default function About() {
 
                     <div className="my-8 h-px bg-linear-to-r from-transparent via-slate-400 to-transparent" />
 
-                    {/* Principle 3 */}
-                    <div className="">
+                    <div className="px-8">
                         <div className="mb-4 flex items-center gap-4">
                             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
-                                📚
+                                <FaBookOpen />
                             </div>
 
                             <h3 className="text-2xl font-semibold text-slate-900">
@@ -247,11 +271,10 @@ export default function About() {
 
                     <div className="my-8 h-px bg-linear-to-r from-transparent via-slate-300 to-transparent" />
 
-                    {/* Principle 4 */}
-                    <div>
+                    <div className="px-8">
                         <div className="mb-4 flex items-center gap-4">
                             <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
-                                🌱
+                                <FaSeedling />
                             </div>
 
                             <h3 className="text-2xl font-semibold text-slate-900">
@@ -265,9 +288,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    {/* Highlight */}
                     <div className="mt-8 rounded-2xl border border-indigo-200 bg-indigo-50 p-6">
-
                         <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-indigo-700">
                             Biggest Lesson
                         </p>
@@ -275,14 +296,9 @@ export default function About() {
                         <blockquote className="text-xl font-medium italic leading-9 text-slate-800">
                             "Understanding why something works is just as important as making it work."
                         </blockquote>
-
                     </div>
 
                 </div>
-
-                {/* Card 3 */}
-
-                <div className="col-span-2 rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200" />
 
                 {/* Card 4 */}
 
