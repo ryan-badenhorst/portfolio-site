@@ -5,6 +5,9 @@ import { FaUsers } from "react-icons/fa";
 import { FaBrain } from "react-icons/fa";
 import { FaBookOpen } from "react-icons/fa";
 import { FaSeedling } from "react-icons/fa";
+import { FaRocket } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
+import { FaBullseye } from "react-icons/fa";
 
 export default function About() {
     return (
@@ -170,7 +173,99 @@ export default function About() {
 
                     {/* Card 3 */}
 
-                    <div className="col-start-1 rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200" />
+                    <div className="col-start-1 overflow-hidden rounded-3xl bg-white shadow-xl ring-1 ring-slate-200">
+
+                        <div className="border-b border-slate-200 bg-linear-to-r from-indigo-100 via-white to-indigo-100 p-6">
+
+                            <h2 className="text-3xl font-bold text-slate-900">
+                                What I'm Working Towards
+                            </h2>
+
+                            <p className="mt-2 leading-8 text-slate-600">
+                                I'm working towards becoming a stronger Front-End Developer by
+                                challenging myself through projects, learning from each experience
+                                and preparing for a professional development environment.
+                            </p>
+
+                        </div>
+
+                        <div className="p-8">
+
+                            <div className="rounded-2xl bg-indigo-50 p-6">
+
+                                <div className="mb-4 flex items-center gap-4">
+
+                                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-xl text-indigo-600">
+                                        <FaRocket />
+                                    </div>
+
+                                    <div>
+
+                                        <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600">
+                                            Current Focus
+                                        </p>
+
+                                        <h3 className="text-2xl font-bold text-slate-900">
+                                            Building & Challenging Myself
+                                        </h3>
+
+                                    </div>
+
+                                </div>
+
+                                <p className="leading-8 text-slate-700">
+                                    Every day, I work towards becoming a stronger Front-End Developer
+                                    by building projects that challenge me to apply what I already know
+                                    while pushing me beyond my current skills. Each project gives me an
+                                    opportunity to take on something new and learn from the process.
+                                </p>
+
+                            </div>
+
+                            <div className="mt-6 grid grid-cols-2 gap-6">
+
+                                <div className="rounded-2xl border-t-4 border-indigo-500 bg-white p-6 shadow-sm ring-1 ring-slate-200">
+
+                                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-xl text-indigo-600">
+                                        <FaGraduationCap />
+                                    </div>
+
+                                    <h3 className="mb-3 text-xl font-semibold text-slate-900">
+                                        Growing Professionally
+                                    </h3>
+
+                                    <p className="leading-8 text-slate-600">
+                                        Alongside building projects, I'm learning more about modern
+                                        frontend development, industry standards and best practices
+                                        so that I can confidently contribute as part of a professional
+                                        development team.
+                                    </p>
+
+                                </div>
+
+                                <div className="rounded-2xl border-t-4 border-indigo-500 bg-white p-6 shadow-sm ring-1 ring-slate-200">
+
+                                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-xl text-indigo-600">
+                                        <FaBullseye />
+                                    </div>
+
+                                    <h3 className="mb-3 text-xl font-semibold text-slate-900">
+                                        My Goal
+                                    </h3>
+
+                                    <p className="leading-8 text-slate-600">
+                                        My goal is to build software that is both well engineered
+                                        and easy to use, while growing through real-world experience
+                                        and collaboration with other developers.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
                 
                 </div>
 
