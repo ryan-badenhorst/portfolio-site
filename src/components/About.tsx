@@ -291,7 +291,7 @@ export default function About() {
                         <div className="px-8">
                             <div className="mb-4 flex items-center gap-4">
                                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
-                                    <FaUsers />
+                                    <FaUsers className="text-indigo-500"/>
                                 </div>
 
                                 <h3 className="text-2xl font-semibold text-slate-900">
@@ -317,7 +317,7 @@ export default function About() {
                         <div className="px-8">
                             <div className="mb-4 flex items-center gap-4">
                                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
-                                    <FaBrain />
+                                    <FaBrain className="text-indigo-500"/>
                                 </div>
 
                                 <h3 className="text-2xl font-semibold text-slate-900">
@@ -338,7 +338,7 @@ export default function About() {
                         <div className="px-8">
                             <div className="mb-4 flex items-center gap-4">
                                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
-                                    <FaBookOpen />
+                                    <FaBookOpen className="text-indigo-500"/>
                                 </div>
 
                                 <h3 className="text-2xl font-semibold text-slate-900">
@@ -363,7 +363,7 @@ export default function About() {
                         <div className="px-8">
                             <div className="mb-4 flex items-center gap-4">
                                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-2xl">
-                                    <FaSeedling />
+                                    <FaSeedling className="text-indigo-500"/>
                                 </div>
 
                                 <h3 className="text-2xl font-semibold text-slate-900">
@@ -391,7 +391,93 @@ export default function About() {
 
                     {/* Card 4 */}
 
-                    <div className="col-start-2 rounded-3xl bg-white p-8 shadow-xl ring-1 ring-slate-200"></div>
+                    <div className="col-start-2 rounded-3xl bg-white shadow-xl ring-1 ring-slate-200">
+
+                        <div className="border-b border-slate-200 bg-linear-to-r from-indigo-100 via-white to-indigo-100 p-6 rounded-t-2xl">
+
+                            <div className="mb-2 flex items-center gap-4">
+
+                                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-100 text-2xl text-indigo-600">
+                                    ✦
+                                </div>
+
+                                <h2 className="text-3xl font-bold text-slate-900">
+                                    Beyond Coding
+                                </h2>
+
+                            </div>
+
+                            <p className="leading-8 text-slate-600">
+                                A little more about the interests and curiosity that shape who I am
+                                outside of software development.
+                            </p>
+
+                        </div>
+
+                        <div className="flex flex-col gap-8">
+
+                            <div className="rounded-2xl border border-slate-200 border-t-5 border-r-5 border-t-indigo-500 border-r-indigo-500  bg-slate-100 mx-6 mt-6 p-4">
+
+                                <div className="mb-5 flex flex-row gap-5 items-center">
+
+                                    <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600">
+                                        01
+                                    </p>
+
+                                    <h3 className="text-2xl font-semibold text-slate-900">
+                                        Curious by Nature
+                                    </h3>
+
+                                </div>
+
+                                <p className="leading-8 text-slate-700">
+                                    Outside of software development, I enjoy solving problems in
+                                    creative ways and challenging myself to look at things from
+                                    different perspectives. Whether I'm building an application
+                                    or tackling something completely unrelated to programming,
+                                    I enjoy understanding how things work and finding thoughtful
+                                    solutions.
+                                </p>
+
+                            </div>
+
+                            <div className="rounded-2xl border border-slate-200 border-b-5 border-l-5 border-b-indigo-500 border-l-indigo-500  bg-slate-100 mx-6 mb-6 p-4">
+
+                                <div className="mb-5 flex flex-row gap-5 items-center">
+
+                                    <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600">
+                                        02
+                                    </p>
+
+                                    <h3 className="text-2xl font-semibold text-slate-900">
+                                        Languages & Cultures
+                                    </h3>
+
+                                </div>
+
+                                <p className="leading-8 text-slate-700">
+                                    I also enjoy learning about ancient cultures and civilizations,
+                                    as well as modern languages, particularly Dutch. I'd like to
+                                    explore other European languages in the future. Learning
+                                    languages gives me the opportunity to connect with different
+                                    cultures while learning about their history and the world today.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div className="border-t border-slate-200 bg-indigo-50 px-8 py-6 rounded-b-2xl">
+
+                            <blockquote className="mx-auto max-w-4xl text-center text-lg italic leading-8 text-slate-700">
+                                Learning a language requires patience, consistency and curiosity —
+                                qualities that I find naturally carry over into software development
+                                and lifelong learning.
+                            </blockquote>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
