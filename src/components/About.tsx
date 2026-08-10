@@ -8,6 +8,7 @@ import { FaSeedling } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaBullseye } from "react-icons/fa";
+import { PiShootingStarFill } from "react-icons/pi";
 
 export default function About() {
     return (
@@ -398,7 +399,7 @@ export default function About() {
                             <div className="mb-2 flex items-center gap-4">
 
                                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-indigo-100 text-2xl text-indigo-600">
-                                    ✦
+                                    <PiShootingStarFill />
                                 </div>
 
                                 <h2 className="text-3xl font-bold text-slate-900">
