@@ -154,6 +154,46 @@ export default function Skills() {
                             Development
                         </h3>
 
+                        <div className="grid grid-cols-3 gap-x-8 gap-y-4">
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                Responsive Design
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                Accessibility
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                Component-Based Development
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                Reusable Components
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                State Management
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                Data Management & Manipulation
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                API Integration
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                Local Storage
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                Testing
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
