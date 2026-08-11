@@ -4,6 +4,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
+import { SiReactrouter } from "react-icons/si";
+import { SiVitest } from "react-icons/si";
 
 export default function Skills() {
     return (
@@ -31,46 +33,34 @@ export default function Skills() {
 
                         <div className="grid grid-cols-3 gap-x-8 gap-y-4">
 
-                            <div className="flex items-center justify-center gap-3 rounded-xl border border-slate-200 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
                                 <FaReact className="text-xl" />
-                                <span>
-                                    React
-                                </span>
+                                <span>React</span>
                             </div>
 
-                            <div className="flex items-center justify-center gap-3 rounded-xl border border-slate-200 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
                                 <BsTypescript className="text-xl" />
-                                <span>
-                                    TypeScript
-                                </span>
+                                <span>TypeScript</span>
                             </div>
 
-                            <div className="flex items-center justify-center gap-3 rounded-xl border border-slate-200 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
                                 <RiTailwindCssFill className="text-xl" />
-                                <span>
-                                    Tailwind CSS
-                                </span>
+                                <span>Tailwind CSS</span>
                             </div>
 
-                            <div className="flex items-center justify-center gap-3 rounded-xl border border-slate-200 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
                                 <IoLogoJavascript className="text-xl" />
-                                <span>
-                                    JavaScript
-                                </span>
+                                <span>JavaScript</span>
                             </div>
 
-                            <div className="flex items-center justify-center gap-3 rounded-xl border border-slate-200 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
                                 <FaHtml5 className="text-xl" />
-                                <span>
-                                    HTML
-                                </span>
+                                <span>HTML</span>
                             </div>
 
-                            <div className="flex items-center justify-center gap-3 rounded-xl border border-slate-200 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
                                 <FaCss3Alt className="text-xl" />
-                                <span>
-                                    CSS
-                                </span>
+                                <span>CSS</span>
                             </div>
 
                         </div>
@@ -83,6 +73,28 @@ export default function Skills() {
                         <h3 className="mb-5 text-2xl font-semibold text-slate-900 italic">
                             React Ecosystem
                         </h3>
+
+                        <div className="flex flex-col gap-4">
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                <SiReactrouter className="text-xl"/>
+                                <span>React Router</span>
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                React Testing Library
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                <SiVitest className="text-xl"/>
+                                <span>Vitest</span>
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                React Icons
+                            </div>
+
+                        </div>
 
                     </div>
 
