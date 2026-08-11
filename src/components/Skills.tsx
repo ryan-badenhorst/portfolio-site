@@ -6,6 +6,12 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiReactrouter } from "react-icons/si";
 import { SiVitest } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { FaNpm } from "react-icons/fa";
+import { SiVite } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 export default function Skills() {
     return (
@@ -104,6 +110,40 @@ export default function Skills() {
                         <h3 className="mb-5 text-2xl font-semibold text-slate-900 italic">
                             Tools
                         </h3>
+
+                        <div className="flex flex-col gap-4">
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                <FaGitAlt className="text-xl"/>
+                                <span>Git</span>
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                <FaGithub className="text-xl"/>
+                                <span>GitHub</span>
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                <FaNodeJs className="text-xl"/>
+                                <span>Node.js</span>
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                <FaNpm className="text-xl"/>
+                                <span>npm</span>
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                <SiVite className="text-xl"/>
+                                <span>Vite</span>
+                            </div>
+
+                            <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
+                                <VscVscode className="text-xl"/>
+                                <span>VS Code</span>
+                            </div>
+                        
+                        </div>
 
                     </div>
 
