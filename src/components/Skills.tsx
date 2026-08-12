@@ -26,9 +26,35 @@ export default function Skills() {
                 responsive web applications.
             </p>
 
-            <div className="flex justify-center">
+            <div className="relative flex justify-center p-5">
+
+                <div
+                    className="pointer-events-none absolute left-0 top-0 h-full w-[28%]"
+                    style={{
+                        backgroundImage:
+                            "radial-gradient(circle, rgb(129 140 248 / 0.65) 1.5px, transparent 1.5px)",
+                        backgroundSize: "16px 16px",
+                        maskImage:
+                            "radial-gradient(ellipse 85% 50% at 0% 50%, black 0%, black 55%, transparent 100%)",
+                        WebkitMaskImage:
+                            "radial-gradient(ellipse 85% 50% at 0% 50%, black 0%, black 55%, transparent 100%)",
+                    }}
+                />
+
+                <div
+                    className="pointer-events-none absolute right-0 top-0 h-full w-[28%]"
+                    style={{
+                        backgroundImage:
+                            "radial-gradient(circle, rgb(129 140 248 / 0.65) 1.5px, transparent 1.5px)",
+                        backgroundSize: "16px 16px",
+                        maskImage:
+                            "radial-gradient(ellipse 85% 50% at 100% 50%, black 0%, black 55%, transparent 100%)",
+                        WebkitMaskImage:
+                            "radial-gradient(ellipse 85% 50% at 100% 50%, black 0%, black 55%, transparent 100%)",
+                    }}
+                />
     
-                <div className="grid w-full max-w-5xl grid-cols-2 gap-5">
+                <div className="relative z-10 grid w-full max-w-5xl grid-cols-2 gap-5">
 
                     {/* Card 1 */}
                     <div className="col-span-2 p-4 rounded-xl bg-white shadow-xl ring-2 ring-slate-300">
