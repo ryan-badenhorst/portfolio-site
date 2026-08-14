@@ -64,7 +64,7 @@ export default function Hero() {
                                 <FaGithub className="icon-button" />
                             </a>
 
-                            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/ryan-badenhorst-7975313b1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                                 <BiLogoLinkedin className="icon-button" />
                             </a>
 

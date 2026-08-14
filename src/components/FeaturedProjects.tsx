@@ -31,7 +31,7 @@ export default function FeaturedProjects() {
                 learned="Building this application taught me how to structure larger React applications using reusable components, organize state across multiple pages, think more carefully about designing interfaces that remain intuitive as new features are added, and write unit tests for components using Vitest and React Testing Library."
                 
                 githubUrl="https://github.com/ryan-badenhorst/pokemon-nuzlocke-tracker"
-                liveDemoUrl="pokemon-nuzlocke-tracker.netlify.app/"
+                liveDemoUrl="https://pokemon-nuzlocke-tracker.netlify.app/"
             />
 
             <ProjectCard 

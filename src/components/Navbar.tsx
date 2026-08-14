@@ -11,8 +11,8 @@ export default function Navbar() {
             <div className="flex flex-row gap-4 ml-auto">
                 <a href="#projects" className="navbar-link">Projects</a>
                 <a href="#about" className="navbar-link">About</a>
-                <a href="" className="navbar-link">Skills</a>
-                <a href="" className="navbar-link">Contact</a>
+                <a href="#skills" className="navbar-link">Skills</a>
+                <a href="#contact" className="navbar-link">Contact</a>
             </div>
         </nav>
     )
