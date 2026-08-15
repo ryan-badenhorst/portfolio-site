@@ -41,12 +41,12 @@ export default function ProjectCard({title, image, imageAlt, about, technologies
                     </div>
 
                     <div className="flex gap-4">
-                        <a href={githubUrl} className="resume-button">
+                        <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="resume-button">
                             <FaGithub />
                             GitHub
                         </a>
 
-                        <a href={liveDemoUrl} className="resume-button">
+                        <a href={liveDemoUrl} target="_blank" rel="noopener noreferrer" className="resume-button">
                             <FaExternalLinkAlt />
                             Live Demo
                         </a>

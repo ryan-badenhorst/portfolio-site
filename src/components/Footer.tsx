@@ -14,7 +14,7 @@ export default function Footer() {
                     </p>
                 </div>
 
-                <a href="#hero"
+                <a href="#nav"
                     className="inline-flex items-center gap-2 text-xl font-medium text-indigo-400 transition-colors hover:text-indigo-300"
                 >
                     Back to top

@@ -2,7 +2,7 @@ import topLogo from "../images/top-logo.jpg";
 
 export default function Navbar() {
     return (
-        <nav className="flex flex-row text-xl bg-slate-50">
+        <nav className="flex flex-row text-xl bg-slate-50" id="nav">
             <a href="#hero" className="pl-3 flex flex-row items-center">
                 <img src={topLogo} alt="Top Logo" className="w-16 h-16"/>
                 <p className="font-bold p-5">Ryan Badenhorst</p>

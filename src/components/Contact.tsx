@@ -72,7 +72,7 @@ export default function Contact() {
                                 </p>
 
                                 <a
-                                    href="mailto:your@email.com"
+                                    href="mailto:ryanwbadenhorst@gmail.com"
                                     className="mt-5 inline-flex items-center gap-2 font-semibold text-indigo-700 transition-colors hover:text-indigo-500"
                                 >
                                     Send me an email
@@ -99,7 +99,7 @@ export default function Contact() {
                                 </p>
 
                                 <a
-                                    href="https://www.linkedin.com/in/your-profile"
+                                    href="https://www.linkedin.com/in/ryan-badenhorst-7975313b1/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="mt-5 inline-flex items-center gap-2 font-semibold text-indigo-700 transition-colors hover:text-indigo-500"
@@ -127,7 +127,7 @@ export default function Contact() {
                                 </p>
 
                                 <a
-                                    href="https://github.com/your-username"
+                                    href="https://github.com/ryan-badenhorst"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="mt-5 inline-flex items-center gap-2 font-semibold text-indigo-700 transition-colors hover:text-indigo-500"
