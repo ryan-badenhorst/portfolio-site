@@ -16,7 +16,7 @@
 
 @layer components {
     .navbar-link {
-        @apply p-5 transition-colors duration-200 hover:text-indigo-700;
+        @apply p-5 transition-colors duration-200 hover:text-indigo-700 max-[673px]:pt-2 max-[395px]:p-3;
     }
 
     .hero-stack {

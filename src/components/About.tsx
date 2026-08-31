@@ -12,7 +12,7 @@ import { PiShootingStarFill } from "react-icons/pi";
 
 export default function About() {
     return (
-        <section id="about" className="mb-15">
+        <section id="about" className="mb-15 overflow-hidden">
 
             <h1 className="section-headings mb-3">
                 About Me

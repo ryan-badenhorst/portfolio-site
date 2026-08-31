@@ -9,8 +9,9 @@ import Footer from "./components/Footer"
 export default function App() {
     return (
         <>
-            <main className="mx-35">
-                <Navbar />
+            <Navbar />
+
+            <main className="mx-35 max-xl:mx-15">
                 <Hero />
                 <FeaturedProjects />
                 <About />
