@@ -16,7 +16,7 @@ export default function Hero() {
                             Hi, I'm
                         </p>
 
-                        <h1 className="text-6xl font-bold text-slate-900">
+                        <h1 className="text-6xl font-bold text-slate-900 max-[405px]:text-4xl">
                             Ryan Badenhorst
                         </h1>
 
@@ -81,13 +81,13 @@ export default function Hero() {
                     <div className="absolute -top-12 -right-12 -z-10 h-48 w-48 max-[1100px]:h-36 max-[1100px]:w-36 bg-[radial-gradient(#3b82f6_2px,transparent_2px)] bg-size-[16px_16px] opacity-70 mask-[radial-gradient(ellipse_at_bottom_left,black_30%,transparent_75%)] [-webkit-mask-image:radial-gradient(ellipse_at_top_right,black_30%,transparent_75%)]" />
                     <div className="absolute -bottom-12 -left-12 -z-10 h-48 w-48 max-[1100px]:h-36 max-[1100px]:w-36 bg-[radial-gradient(#3b82f6_2px,transparent_2px)] bg-size-[16px_16px] opacity-70 mask-[radial-gradient(ellipse_at_bottom_left,black_30%,transparent_75%)] [-webkit-mask-image:radial-gradient(ellipse_at_bottom_left,black_30%,transparent_75%)]" />
 
-                    <div className="relative h-120 w-120 max-[1100px]:h-100 max-[1100px]:w-100 max-[515px]:h-65 max-[515px]:w-65 max-[375px]:h-40 max-[375px]:w-40 rounded-full bg-linear-to-br from-slate-200 via-slate-400 to-slate-600 p-2 shadow-2xl shadow-blue-900/30 ring-1 ring-slate-300/40">
+                    <div className="relative h-120 w-120 max-[1100px]:h-100 max-[1100px]:w-100 max-[515px]:h-65 max-[515px]:w-65 max-[375px]:h-50 max-[375px]:w-50 rounded-full bg-linear-to-br from-slate-200 via-slate-400 to-slate-600 p-2 shadow-2xl shadow-blue-900/30 ring-1 ring-slate-300/40">
                         <div className="h-full w-full overflow-hidden rounded-full border-4 border-slate-400/80 shadow-inner">
                             <img src={profilePicture} alt="Ryan Badenhorst" className="h-full w-full object-cover"/>
                         </div>
                     </div>
 
-                    <div className="absolute bottom-7 -right-14 max-[375px]:left-40 h-24 w-24 max-[1100px]:h-20 max-[1100px]:w-20 max-[515px]:w-15 max-[515px]:h-15 max-[375px]:w-10 max-[375px]:h-10 rounded-full bg-linear-to-br from-blue-200 via-blue-400 to-blue-500 shadow-xl shadow-blue-400/20 ring-1 ring-white/50" />
+                    <div className="absolute bottom-7 -right-14 max-[375px]:left-50 h-24 w-24 max-[1100px]:h-20 max-[1100px]:w-20 max-[515px]:w-15 max-[515px]:h-15 max-[375px]:w-10 max-[375px]:h-10 rounded-full bg-linear-to-br from-blue-200 via-blue-400 to-blue-500 shadow-xl shadow-blue-400/20 ring-1 ring-white/50" />
                     <div className="absolute bottom-1 max-[515px]:-bottom-5 right-13 max-[515px]:right-7 h-8 w-8 max-[1100px]:h-6 max-[1100px]:w-6 rounded-full bg-linear-to-br from-blue-200 via-blue-400 to-blue-500 shadow-md ring-1 ring-white/50" />
                 </div>
             </div>
