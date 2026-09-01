@@ -11,7 +11,7 @@ export default function App() {
         <>
             <Navbar />
 
-            <main className="mx-30 max-xl:mx-10">
+            <main className="mx-30 max-xl:mx-5">
                 <Hero />
                 <FeaturedProjects />
                 <About />

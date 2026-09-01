@@ -20,20 +20,21 @@ type ProjectCardProps = {
 
 export default function ProjectCard({title, image, imageAlt, about, technologies, highlights, learned, githubUrl, liveDemoUrl, reverse = false, isLast = false}: ProjectCardProps) {
     return (
-        <article className="">
+        <article>
 
-            <div className={`flex gap-12 ${ reverse ? "flex-row-reverse" : "flex-row"}`}>
+            <h2 className="mb-8 text-5xl font-bold text-indigo-900">
+                {title}
+            </h2>
 
-                <div className="flex-[1.25] pt-7">
-                    <h2 className="mb-8 text-4xl font-bold text-indigo-900">
-                        {title}
-                    </h2>
+            <div className={`flex gap-12 ${ reverse ? "flex-row-reverse" : "flex-row"} max-lg:flex-col`}>
+
+                <div className="flex-[1.25] pt-7 max-lg:order-last max-lg:pt-0">
 
                     <div className="relative mb-8">
                         <div className="absolute -top-10 -right-10 -z-10 h-40 w-40 bg-[radial-gradient(#3b82f6_2px,transparent_2px)] bg-size-[16px_16px] opacity-60" />
                         <div className="absolute -bottom-10 -left-10 -z-10 h-40 w-40 bg-[radial-gradient(#3b82f6_2px,transparent_2px)] bg-size-[16px_16px] opacity-60" />
 
-                        <div className="rounded-3xl bg-white p-3 shadow-2xl ring-1 ring-slate-200">
+                        <div className="rounded-3xl bg-slate-300 p-3 shadow-2xl ring-1 ring-slate-200">
                             <div className="overflow-hidden rounded-2xl border border-slate-200">
                                 <img src={image} alt={imageAlt} className="w-full" />
                             </div>
@@ -53,7 +54,7 @@ export default function ProjectCard({title, image, imageAlt, about, technologies
                     </div>
                 </div>
 
-                <div className="flex flex-1 items-center">
+                <div className="flex flex-1 items-center max-lg:order-first">
                     <div className="w-full rounded-3xl border-t-4 border-indigo-600 bg-white p-7 shadow-xl">
 
                         <h3 className="mb-3 text-3xl font-bold text-slate-900">
