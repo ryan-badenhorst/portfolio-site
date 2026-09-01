@@ -7,7 +7,7 @@ import ExpenseTracker from "../images/expense-tracker.png"
 
 export default function FeaturedProjects() {
     return (
-        <section id="projects" className="mb-15">
+        <section id="projects" className="mb-15 overflow-hidden">
             <h1 className="section-headings mb-3">
                 Featured Projects
             </h1>

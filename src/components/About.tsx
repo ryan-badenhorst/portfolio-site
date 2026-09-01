@@ -54,7 +54,7 @@ export default function About() {
 
                         <div className="relative p-8">
 
-                            <div className="absolute left-12.5 top-15 bottom-36 w-1 h-110 bg-indigo-200" />
+                            <div className="absolute left-12.5 top-15 bottom-36 w-1 h-110 max-[1440px]:h-115 max-[1309px]:h-120 max-[1102px]:h-130 max-[1012px]:h-143 max-[887px]:h-157 max-[815px]:h-170 max-[786px]:h-180 max-[768px]:h-105 bg-indigo-200" />
 
                             <div className="space-y-10">
 
