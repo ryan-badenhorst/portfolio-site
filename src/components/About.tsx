@@ -54,13 +54,13 @@ export default function About() {
 
                         <div className="relative p-8">
 
-                            <div className="absolute left-12.5 top-15 bottom-36 w-1 h-110 max-[1440px]:h-115 max-[1309px]:h-120 max-[1102px]:h-130 max-[1012px]:h-143 max-[887px]:h-157 max-[815px]:h-170 max-[786px]:h-180 max-[768px]:h-105 bg-indigo-200" />
+                            <div className="absolute left-12.5 top-15 bottom-36 w-1 bg-indigo-200 max-[1095px]:bottom-45 max-[1005px]:bottom-50 max-[852px]:bottom-60 max-[817px]:bottom-70 max-[768px]:bottom-35 max-[552px]:bottom-50 max-[430px]:bottom-65 max-[378px]:bottom-80 max-[336px]:bottom-92" />
 
-                            <div className="space-y-10">
+                            <div className="relative flex flex-col gap-10">
 
-                                <div className="relative flex gap-6">
+                                <div className="flex gap-6">
 
-                                    <div className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
+                                    <div className="z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 font-bold text-white">
                                         1
                                     </div>
 
