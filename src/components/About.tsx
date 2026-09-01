@@ -12,7 +12,7 @@ import { PiShootingStarFill } from "react-icons/pi";
 
 export default function About() {
     return (
-        <section id="about" className="mb-15 overflow-hidden">
+        <section id="about" className="mb-15">
 
             <h1 className="section-headings mb-3">
                 About Me
@@ -24,7 +24,7 @@ export default function About() {
                 that guide the way I build applications.
             </p>
 
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1">
 
                 <div className="flex flex-col gap-8">
 
@@ -215,7 +215,7 @@ export default function About() {
 
                             </div>
 
-                            <div className="mt-6 grid grid-cols-2 gap-6">
+                            <div className="mt-6 grid grid-cols-2 gap-6 max-xl:grid-cols-1">
 
                                 <div className="rounded-2xl border-t-4 border-indigo-500 bg-white p-6 shadow-sm ring-1 ring-slate-200">
 
