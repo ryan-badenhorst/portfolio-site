@@ -54,16 +54,16 @@ export default function Skills() {
                     }}
                 />
     
-                <div className="relative z-10 grid w-full max-w-5xl grid-cols-2 gap-5">
+                <div className="relative z-10 grid w-full max-w-5xl grid-cols-2 gap-5 max-[680px]:grid-cols-1">
 
                     {/* Card 1 */}
-                    <div className="col-span-2 p-4 rounded-xl bg-white shadow-xl ring-2 ring-slate-300">
+                    <div className="col-span-2 p-4 rounded-xl bg-white shadow-xl ring-2 ring-slate-300 max-[680px]:col-span-1">
 
                         <h3 className="mb-5 text-2xl font-semibold text-slate-900 italic">
                             Core Technologies
                         </h3>
 
-                        <div className="grid grid-cols-3 gap-x-8 gap-y-4">
+                        <div className="grid grid-cols-3 gap-x-8 gap-y-4 max-[680px]:grid-cols-2 max-[480px]:grid-cols-1">
 
                             <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
                                 <FaReact className="text-xl" />
@@ -174,13 +174,13 @@ export default function Skills() {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="col-span-2 p-4 rounded-xl bg-white shadow-xl ring-2 ring-slate-300">
+                    <div className="col-span-2 p-4 rounded-xl bg-white shadow-xl ring-2 ring-slate-300 max-[680px]:col-span-1">
 
                         <h3 className="mb-5 text-2xl font-semibold text-slate-900 italic">
                             Development
                         </h3>
 
-                        <div className="grid grid-cols-3 gap-x-8 gap-y-4">
+                        <div className="grid grid-cols-3 gap-x-8 gap-y-4 max-[680px]:grid-cols-2 max-[480px]:grid-cols-1">
 
                             <div className="flex items-center justify-center gap-3 rounded-xl border border-indigo-500 bg-slate-100 px-4 py-3 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 hover:shadow-md">
                                 Responsive Design

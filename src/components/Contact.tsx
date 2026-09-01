@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function Contact() {
     return (
-        <section id="contact" className="relative mb-15 overflow-hidden py-8">
+        <section id="contact" className="relative mb-15 overflow-hidden pb-8">
 
             <div className="pointer-events-none absolute inset-0">
 
