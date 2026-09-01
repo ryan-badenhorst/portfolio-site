@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function Contact() {
     return (
-        <section id="contact" className="relative mb-15 overflow-hidden pb-8">
+        <section id="contact" className="relative mb-10 overflow-hidden pb-8">
 
             <div className="pointer-events-none absolute inset-0">
 
@@ -54,7 +54,7 @@ export default function Contact() {
 
                         <div className="my-8 h-px bg-slate-200" />
 
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-3 gap-5 max-md:grid-cols-1">
 
                             {/* Email */}
                             <div className="flex flex-col items-center rounded-2xl border border-indigo-200 bg-indigo-50 p-6 text-center shadow-sm transition-all hover:-translate-y-1 hover:border-indigo-300 hover:shadow-md">
